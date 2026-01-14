@@ -1,0 +1,14 @@
+# Ignore environment variable files
+#.env
+#.env.*
+#!.env.example
+
+# Ignore virtual environments
+.venv/
+.venv*/
+**/.venv/
+**/.venv*/
+
+# Common Python artifacts (optional but recommended)
+__pycache__/
+*.pyc
