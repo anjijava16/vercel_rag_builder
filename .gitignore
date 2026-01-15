@@ -1,7 +1,10 @@
 # Ignore environment variable files
-#.env
-#.env.*
-#!.env.example
+.env
+.env.*
+!.env.example
+.env.local
+.env.production.local
+.env.development.local
 
 # Ignore virtual environments
 .venv/
@@ -12,3 +15,17 @@
 # Common Python artifacts (optional but recommended)
 __pycache__/
 *.pyc
+
+# Vercel
+.vercel
+
+# Next.js
+**/node_modules/
+**/.next/
+**/out/
+**/.DS_Store
+
+# Python
+*.egg-info/
+dist/
+build/
