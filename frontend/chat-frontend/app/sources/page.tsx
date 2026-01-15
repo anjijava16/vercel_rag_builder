@@ -33,7 +33,7 @@ export default function SourcesPage() {
             Document Sources
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 font-light leading-relaxed">
-            UnCovered aggregates documents from multiple official sources to provide comprehensive research access.
+            Order RAG aggregates documents from multiple official sources to provide comprehensive research access.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ export default function SourcesPage() {
             About These Documents
           </h3>
           <p className="text-sm text-gray-600 dark:text-gray-400 font-light leading-relaxed">
-            All documents in UnCovered are from publicly available official sources. The system uses AI-powered
+            All documents in Order RAG are from publicly available official sources. The system uses AI-powered
             search to help researchers quickly find relevant information across thousands of pages of legal documents,
             depositions, and official disclosures.
           </p>

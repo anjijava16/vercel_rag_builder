@@ -1,4 +1,4 @@
-# UnCovered Setup Guide
+# Order File RAG Setup Guide
 
 mdb.link/instruqt-ai
 mdb.link/mdb-voyage-ai
@@ -14,6 +14,8 @@ http://mdb.link/instruqt-ai
 https://landing.mdb.link/
 
 https://docs.google.com/presentation/d/e/2PACX-1vScC593V1eNXEgR2kisgl8qSCoYdPMejGcOoRnKdbdjH_-01z2NELik_91JBbOJQyEcs2qh0TBRp05a/pub?start=false&loop=false&delayms=3000&slide=id.g3895cfc518b_0_1536
+
+
 A RAG (Retrieval-Augmented Generation) application for querying public investigation documents with citations. The system consists of a FastAPI backend and a Next.js frontend.
 
 ## Project Structure

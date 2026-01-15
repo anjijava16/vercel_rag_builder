@@ -18,11 +18,11 @@ export default function Header() {
         <div>
           <Link href="/">
             <h1 className="text-3xl font-medium text-gray-900 dark:text-gray-100 tracking-tight cursor-pointer hover:text-gray-700 dark:hover:text-gray-300 transition-colors">
-              UnCovered
+              Order RAG
             </h1>
           </Link>
           <p className="text-gray-500 dark:text-gray-400 text-sm mt-0.5 font-light">
-            UnCovered Files Reader Powered by AI
+            Order RAG Reader Powered by AI
           </p>
         </div>
 
@@ -37,7 +37,8 @@ export default function Header() {
           >
             Chat
           </Link>
-          <Link
+          
+          {/* <Link
             href="/sources"
             className={`text-sm font-medium transition-colors ${
               pathname === '/sources'
@@ -46,12 +47,13 @@ export default function Header() {
             }`}
           >
             Sources
-          </Link>
+          </Link> */}
+
         </nav>
 
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/BrennenFa"
+            href="https://github.com/anjijava16?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2.5 rounded-full bg-gray-100 dark:bg-zinc-900 hover:bg-gray-200 dark:hover:bg-zinc-800 transition-all border border-gray-200 dark:border-zinc-800"

@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "UnCovered",
-  description: "AI Powered Analysis of the UnCovered Files.",
+  title: "Order RAG",
+  description: "AI Powered Analysis of the Order RAG Files.",
 };
 
 export default function RootLayout({

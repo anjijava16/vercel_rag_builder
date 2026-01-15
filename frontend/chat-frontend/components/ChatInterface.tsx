@@ -122,7 +122,7 @@ export default function ChatInterface() {
               Ask About the Documents
             </h2>
             <p className="text-gray-500 dark:text-gray-400 text-lg font-light leading-relaxed">
-              Search through the UnCovered Files with AI-powered analysis
+              Search through the Order RAG Files with AI-powered analysis
             </p>
           </div>
         </div>
